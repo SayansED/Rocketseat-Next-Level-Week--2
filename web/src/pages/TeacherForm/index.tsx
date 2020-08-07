@@ -8,7 +8,7 @@ import api from '../../services/api';
 import { useHistory } from 'react-router-dom';
 
 function TeacherForm() {
-    const histoty = useHistory();
+    const history = useHistory();
 
     const [name, setName] = useState('');
     const [avatar, setAvatar] = useState('');
@@ -164,6 +164,7 @@ function TeacherForm() {
                     </p>
                         <button type="submit">
                             Salvar cadastro
+                        </button>
                     </footer>
                 </form>
             </main>
